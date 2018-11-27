@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+header {
+	background-color:purple;
+ 	color:#ffff00;
+	padding:20px;
+  	min-height:70px;
+  	border-bottom:yellow 3px solid;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  border: 3px solid green;
+  padding: 10px;
+  background:green;
+}
+
+#boxes{
+  padding:20px;
+  min-height:350px;
+  background:red;
+}
+
+#boxes .box{
+  float:left;
+  text-align:center;
+  width:33%;
+  padding-top:30px;
+  background:yellow;
+  color:blue;
+}
+
+#boxes .box img{
+  width:120px;
+  height:120px;
+}
+
+#boxes .box video{
+	width:140px;
+	height:120px;
+	background:blue;
+}
+
